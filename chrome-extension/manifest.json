@@ -1,0 +1,33 @@
+{
+    "name": "TC Helper",
+    "version": "1.0.0",
+    "description": "Some QoL improvements for TC moderation.",
+    
+    "manifest_version": 2,
+    
+    "permissions": [
+       "storage",
+       "webRequest",
+       "webRequestBlocking",
+       "<all_urls>"
+     ],
+    
+    "browser_action": {
+       "default_icon": "icon.png"
+    },
+    
+    "background": {
+      "scripts": [
+        "background.js"
+      ]
+    },
+    
+    "content_scripts": [
+        {
+            "matches": ["http://*.soundcloud.com/messages*", "https://*.soundcloud.com/messages*"],
+            "js": ["jquery-3.2.1.min.js", "script.js"],
+            "css": ["style.css"],
+            "run_at": "document_idle"
+        }
+    ]
+}

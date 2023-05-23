@@ -1,0 +1,19 @@
+{
+  "name": "tc-uploader",
+  "version": "1.0.0",
+  "description": "An automated uploader (and other things) for the TC automated workflow.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TC",
+  "license": "ISC",
+  "dependencies": {
+    "form-data": "^2.3.3",
+    "googleapis": "^36.0.0",
+    "node-fetch": "^2.3.0",
+    "opn": "^5.4.0",
+    "readline-promise": "^1.0.3",
+    "server-destroy": "^1.0.1"
+  }
+}

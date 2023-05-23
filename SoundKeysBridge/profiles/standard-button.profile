@@ -1,0 +1,13 @@
+protocol=1
+profile_id=soundkeys-standard-button
+effect_match=tc Sound Keys
+command_match=
+command_name=Apply
+command_index=-1
+mode=standard_button
+outputs=1
+min_keys=2
+max_keys=500000
+start_tolerance_seconds=0.11
+end_tolerance_seconds=0.11
+max_gap_seconds=0.11

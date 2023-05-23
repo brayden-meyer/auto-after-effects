@@ -1,0 +1,12 @@
+#tch-messages-signature {
+  padding: 0px 5px;
+  border-radius: 3px;
+  border: 1px solid #e5e5e5;
+}
+.tch-messages-template-button {
+  margin-right: 5px !important;
+}
+.inboxItem[data-tch-submission='true'] .conversationBadge__image {
+  border: solid 3px red;
+  border-radius: 100%;
+}
